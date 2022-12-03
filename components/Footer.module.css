@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-family: "lato", sans-serif;
+  padding-bottom: 50px;
+}
+.logoframe img {
+  width: 200px;
+}
+.rightframe {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+.labelframe {
+  padding-top: 70px;
+  display: flex;
+  gap: 40px;
+  font-size: 23px;
+}
+.labelframe p {
+  margin-top: -15px;
+}
+.buttonframe {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.buttonframe button {
+  border-radius: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #ffd2d2;
+  width: 170px;
+  height: 35px;
+  text-align: center;
+  font-size: 23px;
+  cursor: pointer;
+}
+@media (width <= 970px) {
+  .rightframe {
+    margin-left: 0px;
+  }
+}
+@media (width <= 730px) {
+  .labelframe {
+    gap: 20px;
+    font-size: 20px;
+  }
+}

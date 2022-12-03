@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.logocontainer {
+  margin-left: 30px;
+  padding: 10px 0px 10px;
+}
+.buttoncontainer {
+  display: flex;
+  margin-left: 10%;
+  gap: 40px;
+}
+.buttoncontainer button {
+  color: #ffd2d2;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.searchbarcontainer {
+  display: block;
+}
+.searchbar {
+  margin-left: 120px;
+  width: 300px;
+  height: 26px;
+  background-color: #fbf6cf;
+  border-radius: 10px;
+}
+.usercontainer a img {
+  margin-right: 15px;
+  width: 50px;
+  cursor: pointer;
+}
+@media (width <= 1080px) {
+    .searchbar{
+        display: none;
+    }
+}
+@media (width <= 720px) {
+    .buttoncontainer{
+        gap: 20px;
+    }
+}
