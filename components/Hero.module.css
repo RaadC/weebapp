@@ -1,3 +1,95 @@
-.container{
-    color: white;
+.container {
+  display: flex;
+  color: aqua;
+}
+
+.wrap {
+  overflow: hidden;
+}
+
+.sliding {
+  position: relative;
+  background: url(slidingbg.png) repeat-x;
+  height: 650px;
+  width: 3384px;
+  animation: slide 60s linear infinite;
+}
+
+.herobox {
+  position: absolute;
+  width: 600px;
+  border: 4px solid pink;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-left: 32%;
+  margin-right: 20%;
+  text-align: center;
+  padding: 50px 50px 150px 50px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  background-color: rgba(182, 127, 165, 0.3);
+}
+
+.title{
+  font-family: "Arial";
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 65px;
+  color: white;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black
+}
+
+.subtitle{
+  padding: 0 10px;
+  color: #ece5e9;
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: 600;
+  font-style: oblique;
+  padding-bottom: 20px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.herobox a button{
+  background-color: #fff59f;
+  margin-top: 15px;
+  height: 45px;
+  width: 150px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
+@media (width <= 1260px){
+  .herobox{
+    margin-left: 27%;
+  }
+}
+
+@media (width <= 1050px){
+  .herobox{
+    margin-left: 18%;
+    width: 500px;
+  }
+}
+
+@media (width <= 685px){
+  .herobox{
+    margin-left: 70px;
+    width: 500px;
+  }
 }
