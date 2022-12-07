@@ -7,31 +7,31 @@ export default function Creators() {
             <p className={styles.header}>CREATORS</p>
             <div className={styles.cardscontainer}>
                 <div className={styles.card}>
-                    <img src="Radley.jpg" />
+                    <img src="icon4.png" />
                     <div className={styles.title}>
                         <p>Ice Alcantara</p>
                         <p>Project Manager</p>
                     </div>
                 </div>
                 <div className={styles.card}>
-                    <img src="weeblogo40.png" />
+                    <img src="icon3.png" />
                     <div className={styles.title}>
-                        <p>Ice Alcantara</p>
-                        <p>Project Manager</p>
+                        <p>Mary Valdez</p>
+                        <p>Designer</p>
                     </div>
                 </div>
                 <div className={styles.card}>
-                    <img src="weeblogo40.png" />
+                    <img src="icon2.png" />
                     <div className={styles.title}>
-                        <p>Ice Alcantara</p>
-                        <p>Project Manager</p>
+                        <p>Mariel Tolentino</p>
+                        <p>Developer</p>
                     </div>
                 </div>
                 <div className={styles.card}>
-                    <img src="weeblogo40.png" />
+                    <img src="icon1.png" />
                     <div className={styles.title}>
-                        <p>Ice Alcantara</p>
-                        <p>Project Manager</p>
+                        <p>Jann Radley Maniago</p>
+                        <p>Developer</p>
                     </div>
                 </div>
             </div>

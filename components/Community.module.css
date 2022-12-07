@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 150px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.imagecontainer img{
+    width: 100%;
+    height: auto;
+}
+.right{
+    border: 3px solid white;
+    margin: 20px 50px 20px 0px;
+    width: 300px;
+}
+.right p{
+    padding: 40px 40px 40px 40px;
+}
+@media (width <= 1100px){
+    .container{
+        flex-direction: column;
+    }
+    .right{
+       margin: 0 auto;
+       height: 300px;
+       margin-top: -100px;
+       margin-bottom: 40px;
+    }
+}
