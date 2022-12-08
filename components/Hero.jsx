@@ -10,7 +10,7 @@ export default function Hero() {
       <div className={styles.herobox}>
         <p className={styles.title}>Welcome to Weebappp</p>
         <p className={styles.subtitle}>‘Create and share your own stories and illustrations’</p>
-        <a href="#">
+        <a href="http://localhost:3000/login">
           <button>Get Started</button>
         </a>
       </div>

@@ -4,18 +4,29 @@ export default function Navbar() {
   return (
     <div className={styles.container}>
       <div className={styles.logocontainer}>
-        <img src="weeblogo40.png" />
+        <a href="http://localhost:3000/">
+          <img src="weeblogo40.png" />
+        </a>
       </div>
       <div className={styles.buttoncontainer}>
-        <button>CREATE</button>
+        <div className={styles.down}>
+          <button>PUBLISH</button>
+          <div className={styles.dcontent}>
+            <p className={styles.txt1}>Post Manga</p>
+            <p className={styles.txt2}>Post Novel</p>
+            <a href="http://localhost:3000/post">
+            <p className={styles.txt3}>Post Illustrations</p>
+            </a>
+          </div>
+        </div>
         <button>CREATORS</button>
         <button>COMMUNITY</button>
       </div>
       <div className={styles.searchbarcontainer}>
-      <input className={styles.searchbar} placeholder="Search" />
+        <input className={styles.searchbar} placeholder="Search" />
       </div>
       <div className={styles.usercontainer}>
-      <a href="http://localhost:3000/login">
+        <a href="http://localhost:3000/login">
           <img className={styles.userlogo} src="userlogo.png" />
         </a>
       </div>

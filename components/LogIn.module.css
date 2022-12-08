@@ -1,0 +1,125 @@
+.container{
+    background: #f3d2f1;
+    max-height: 600px;
+    box-sizing: border-box;
+    margin: 0;
+     padding: 0;
+  font-family: "lato", sans-serif;
+}
+.mylogo {
+    justify-content: center;
+    margin: 20px 100px 20px;
+}
+
+.img {
+    justify-content: center;
+    display: flex;
+    width:100%;
+    height: auto;
+}
+
+.login{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+}
+
+.forgot{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.dont{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.frame {
+    
+    width: 400px;
+    padding: 5px 20px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    position: relative;
+    top:-800px;
+    left: 600px;
+    margin: 20px 20px;
+    width: 400px;
+    height: 550px;
+    border: 4px solid #9A3DE3;
+    border-radius:  10px;
+    background-color: rgba(255, 255, 255,0.1);
+    
+}
+.placeholder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+}
+.phleft {
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 0;
+    background-color: transparent;
+    font-family: "lato", sans-serif;
+  }
+.phleftpc {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #f3d2f1;
+    color:black;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: transparent;
+    z-index: 1;
+  
+      }
+.labels {
+    position: absolute;
+  top: -8px;
+  left: 10px;
+  padding: 0 4px;
+  background-color: rgb(255, 255, 255);
+  color: #fa0c83;
+  font-size: 14px;
+  font-style: oblique;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.phleftpc:focus + .labels {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 16px;
+    font-weight: 600;
+    color: purple;
+  }
+  .phleftpc:focus {
+    border: 2px solid purple;
+}
+.formcontainer {
+    position: relative;
+    height: 45px;
+    width: 200px;
+    margin-bottom: 17px;
+}
+
+.phleftpc::placeholder {
+    color: transparent;
+}

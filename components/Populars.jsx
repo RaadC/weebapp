@@ -12,8 +12,12 @@ export default function Populars() {
           <img className={styles.previewimg} src="manga1.png" />
           <p className={styles.previewtitle}>Two Piece</p>
           <div className={styles.tooltip}>
-            <p>Genre: Action</p>
-            <p>Lorem Ipsum sit amet, consectur adipiscing elit,</p>
+            <p>Genre: Comedy, Action, Fantasy</p>
+            <p>
+              Two Piece is the story of Monkey D. Luffy, a young man who has a
+              single dream: To find the legendary treasure known as the Two
+              Piece and become the King of the Pirates. 
+            </p>
             <a href="http://localhost:3000/preview">
               <button>view</button>
             </a>
