@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Populars from "../components/Populars";
+import Community from "../components/Community";
 import Creators from "../components/Creators";
 import Footer from "../components/Footer";
 
@@ -14,6 +15,7 @@ export default function Preview() {
       </Head>
       <Navbar />
       <Populars />
+      <Community />
       <Creators />
       <Footer />
     </div>

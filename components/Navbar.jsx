@@ -1,4 +1,5 @@
 import styles from "./Navbar.module.css";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
@@ -15,12 +16,20 @@ export default function Navbar() {
             <p className={styles.txt1}>Post Manga</p>
             <p className={styles.txt2}>Post Novel</p>
             <a href="http://localhost:3000/post">
-            <p className={styles.txt3}>Post Illustrations</p>
+              <p className={styles.txt3}>Post Illustrations</p>
             </a>
           </div>
         </div>
-        <button>CREATORS</button>
-        <button>COMMUNITY</button>
+        <button>
+          <Link to="creators" spy={true} smooth={true} offset={-20}>
+            CREATORS
+          </Link>
+        </button>
+        <button>
+          <Link to="community" spy={true} smooth={true} offset={-20}>
+            COMMUNITY
+          </Link>
+        </button>
       </div>
       <div className={styles.searchbarcontainer}>
         <input className={styles.searchbar} placeholder="Search" />

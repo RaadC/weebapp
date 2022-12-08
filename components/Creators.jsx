@@ -1,8 +1,9 @@
 import styles from "./Creators.module.css";
 
+
 export default function Creators() {
   return (
-    <div className={styles.container}>
+    <div id="creators" className={styles.container}>
         <div className={styles.left}>
             <p className={styles.header}>CREATORS</p>
             <div className={styles.cardscontainer}>

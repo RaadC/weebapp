@@ -2,7 +2,7 @@ import styles from "./Community.module.css";
 
 export default function Community() {
   return (
-    <div className={styles.container}>
+    <div id="community" className={styles.container}>
       <div className={styles.left}>
         <div className={styles.header}>Be a part of our Weebapp Community!</div>
         <div className={styles.imagecontainer}>
