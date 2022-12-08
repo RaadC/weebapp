@@ -5,7 +5,7 @@ export default function Populars() {
     <div className={styles.container}>
       <div className={styles.caption}>
         <p className={styles.txtcategory}>Manga</p>
-        <p className={styles.txtmost}>Most View</p>
+        <p className={styles.txtmost}>Most Viewed</p>
       </div>
       <div className={styles.previewcontainer}>
         <div className={styles.previewcard}>
@@ -99,7 +99,7 @@ export default function Populars() {
       </div>
       <div className={styles.caption}>
         <p className={styles.txtcategory}>Novel</p>
-        <p className={styles.txtmost}>Most View</p>
+        <p className={styles.txtmost}>Most Viewed</p>
       </div>
       <div className={styles.previewcontainer}>
         <div className={styles.previewcard}>
@@ -171,7 +171,7 @@ export default function Populars() {
       </div>
       <div className={styles.caption}>
         <p className={styles.txtcategory}>Illustration</p>
-        <p className={styles.txtmost}>Most View</p>
+        <p className={styles.txtmost}>Most Viewed</p>
       </div>
       <div className={styles.previewcontainer}>
         <div className={styles.previewcard}>

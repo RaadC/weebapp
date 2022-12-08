@@ -49,7 +49,10 @@
 .card3 img{
     width: 100%;
 }
-@media (width <= 1080px){
+.label2{
+  width: 400px;
+}
+@media (width <= 1450px){
   .cardcontainer{
     flex-direction: column;
     gap: 20px;
