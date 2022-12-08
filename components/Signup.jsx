@@ -19,11 +19,11 @@ export default function Signup() {
                 <label className={styles.labels}>Username</label>
                 </div>
                 <div className={styles.formcontainer}>
-                <input className={styles.phleftpc} placeholder = "password"/>
+                <input className={styles.phleftpc} type="password" placeholder = "password"/>
                 <label className={styles.labels}>Password</label>
                 </div>
                 <div className={styles.formcontainer}>
-                <input className={styles.phleftpc} placeholder = "Repeat password"/>
+                <input className={styles.phleftpc} type="password" placeholder = "Repeat password"/>
                 <label className={styles.labels}>Repeat Password</label>
                 </div>
                 <Submit />

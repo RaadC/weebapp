@@ -12,6 +12,10 @@ export default function Synopsis() {
           <div className={styles.imagecontainer}>
             <img src="synopsis1.png" />
           </div>
+          <div className={styles.favadd}>
+          <button className={styles.btn1}>Favorite</button>
+          <button className={styles.btn2}>Add To</button>
+          </div>
           <div className={styles.textcontainer}>
             <p className={styles.title}>TWO PIECE</p>
             <p className={styles.author}>Eichiro Oda</p>

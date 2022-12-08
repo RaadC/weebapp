@@ -12,6 +12,29 @@
   color: white;
   padding: 50px 50px 50px 50px;
 }
+.favadd {
+  display: flex;
+  height: 50px;
+  width: auto;
+  gap:10px;
+  margin-left:-270px;
+  margin-top: 450px;
+}
+.favadd .btn1{
+  border-color: transparent;
+  border-radius: 2px;
+  padding-left:25px;
+  padding-right: 25px;
+  background-color: hsl(0, 94%, 51%);
+}
+.favadd .btn2{
+  align-items: center;
+  border-color: transparent;
+  border-radius: 2px;
+  padding-left:25px;
+  padding-right: 25px;
+  background-color: #faf097;
+}
 .back {
   margin-left: 90px;
   display: flex;
@@ -28,11 +51,17 @@
   padding: 20px 200px 50px 200px;
 }
 .title {
+  margin-left: 20px;
   font-size: 40px;
 }
 .author {
+  margin-left: 20px;
   margin-top: -40px;
   font-size: 25px;
+}
+.p{
+  margin-left: 50px;
+
 }
 .chaptercard {
   display: flex;

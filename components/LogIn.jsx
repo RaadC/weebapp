@@ -15,7 +15,7 @@ export default function Login() {
               <label className={styles.labels}>Username</label>
             </div>
             <div className={styles.formcontainer}>
-              <input className={styles.phleftpc} placeholder="Password" />
+              <input className={styles.phleftpc} type="password" placeholder="Password" />
               <label className={styles.labels}>Password</label>
             </div>
             <p className={styles.forgot}>Forgot Password?</p>

@@ -23,7 +23,7 @@
     margin-top: 8px;
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    color:#FFFFFF;
+    color:white;
 }
 
 .forgot{
@@ -31,7 +31,6 @@
     margin-top: 10px;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
-    color:#FFFFFF;
     cursor: pointer;
 }
 
@@ -40,7 +39,6 @@
     margin-top: 10px;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
-    color:#FFFFFF;
     cursor: pointer;
 }
 
@@ -57,7 +55,7 @@
     height: 550px;
     border: 4px solid #9A3DE3;
     border-radius:  10px;
-    background-color: rgba(255, 255, 255,0.1);
+    background-color: rgb(255, 255, 255);
     
 }
 .placeholder {
@@ -70,7 +68,7 @@
     box-sizing: border-box;
     margin-top: 20px;
     padding: 0;
-    background-color: transparent;
+    background-color: white;
     font-family: "lato", sans-serif;
   }
 .phleftpc {
@@ -85,7 +83,7 @@
     font-size: 16px;
     padding: 0 20px;
     outline: none;
-    background: transparent;
+    background: white;
     z-index: 1;
   
       }
@@ -121,5 +119,5 @@
 }
 
 .phleftpc::placeholder {
-    color: transparent;
+    color:white;
 }
